@@ -1,0 +1,14 @@
+9GmnOsYnHpDAuOnKHr82ANvfUw0LNXR8SAqihoO1pUZ8Jr8BjAmOJQQJ99AKACAAAAAAAAAAAAASAZDOU6gv
+
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+echo "# dev-ops" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mohamedabdulazeez/dev-ops.git
+git push -u origin main
+
